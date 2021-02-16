@@ -74,10 +74,6 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     frameworks/av/services/audiopolicy/config/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
 
-# Advanced Display
-PRODUCT_PACKAGES += \
-    AdvancedDisplay
-
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
@@ -112,10 +108,6 @@ PRODUCT_PACKAGES += \
     gralloc.apq8084 \
     hwcomposer.apq8084 \
     memtrack.apq8084
-
-# Doze service
-PRODUCT_PACKAGES += \
-    SamsungDoze
 
 # DRM
 PRODUCT_PACKAGES += \
